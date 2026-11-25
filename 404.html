@@ -9,28 +9,36 @@
 <meta property="og:title" content="Page not found | Glow Power Building Contracting">
 <meta property="og:description" content="Page not found.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script>(function(d){d.classList.add('js');try{if(!sessionStorage.getItem('gp-seen')){d.classList.add('first');sessionStorage.setItem('gp-seen','1')}var p=localStorage.getItem('gp-palette');if(p==='amber'||p==='rose'||p==='lilac')d.setAttribute('data-palette',p)}catch(e){}})(document.documentElement)</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="page-404">
 <a class="skip" href="#main">Skip to content</a>
+<div class="loader" aria-hidden="true"><div class="loader-in"><svg viewBox="0 0 80 120"><circle class="halo" cx="40" cy="46" r="20"/><path class="bulb" d="M29 84 C29 71 12 63 12 42 A28 28 0 0 1 68 42 C68 63 51 71 51 84 Z M30 93 H50 M33 101 H47"/><path class="fil" d="M34 84 V60 L37 51 L40 60 L43 51 L46 60 V84"/></svg><p class="loader-word">Glow Power</p></div></div>
 <header class="hdr" data-header><div class="wrap">
-  <a class="brand" href="index.html" aria-label="Glow Power Building Contracting home"><i aria-hidden="true"></i>Glow Power</a>
-  <button class="menu-btn" data-menu-toggle aria-expanded="false" aria-controls="nav">Menu</button>
+  <a class="brand" href="index.html" aria-label="Glow Power Building Contracting home"><i aria-hidden="true"></i><span>Glow Power</span></a>
+  <button class="menu-btn" data-menu-toggle aria-expanded="false" aria-controls="nav"><span class="menu-lines" aria-hidden="true"></span>Menu</button>
   <nav class="nav" id="nav" data-menu aria-label="Main"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="projects.html">Work</a><a href="contact.html">Contact</a><a class="cta" href="tel:+97145751809">Call 04 575 1809</a></nav>
 </div></header>
 <main id="main">
-<section class="phead"><div class="stage"><canvas data-scene="mini" role="img" aria-label="A 3D interior"></canvas></div>
-<div class="copy"><div class="wrap"><h1>Lights on, nobody home.</h1><p class="lede">The page you asked for does not exist.</p></div></div></section><section class="sec"><div class="wrap"><div class="btns"><a class="btn glow" href="index.html">Go to the home page</a><a class="btn" href="contact.html">Book a site survey</a></div></div></section>
+<section class="lost"><div class="stage"><canvas data-scene="mini" data-view="lost" role="img" aria-label="An empty 3D office at night, one light flickering"></canvas></div>
+<div class="copy">
+  <p class="code">Error 404</p>
+  <h1>Lights on, nobody home.</h1>
+  <p class="lede">The page you asked for does not exist.</p>
+  <div class="btns"><a class="btn glow edge" href="index.html">Go to the home page</a><a class="btn edge" href="contact.html">Book a site survey</a></div>
+</div></section>
 </main>
 <footer class="ftr"><div class="wrap">
-  <div><p class="say">Your space, switched on.</p><p style="color:#D9CCEE">Office 12, R-02, France Cluster, International City, Dubai</p></div>
-  <nav aria-label="Footer"><a href="services.html">Office fit-out</a><a href="services.html#retail">Retail and restaurants</a><a href="services.html#lighting">Lighting and ceilings</a><a href="projects.html">Our work</a></nav>
-  <nav aria-label="Contact"><a href="tel:+97145751809">04 575 1809</a><a href="contact.html">Book a site survey</a><a href="about.html">About us</a></nav>
+  <div><p class="say">Your space, <em>switched on.</em></p><p class="addr">Office 12, R-02, France Cluster, International City, Dubai</p></div>
+  <nav aria-label="Footer"><span class="h">Services</span><a href="services.html">Office fit-out</a><a href="services.html#retail">Retail and restaurants</a><a href="services.html#lighting">Lighting and ceilings</a><a href="projects.html">Our work</a></nav>
+  <nav aria-label="Contact"><span class="h">Contact</span><a href="tel:+97145751809">04 575 1809</a><a href="contact.html">Book a site survey</a><a href="about.html">About us</a></nav>
   <div class="fine"><span>© <span data-year></span> Glow Power Building Contracting LLC</span><span>Concept website — sample content for review</span></div>
 </div></footer>
+<script src="assets/js/ui.js"></script>
 <script src="assets/js/vendor/three.min.js"></script>
 <script src="assets/js/scene.js"></script>
 <script src="assets/js/main.js"></script>

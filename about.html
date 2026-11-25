@@ -9,48 +9,72 @@
 <meta property="og:title" content="About | Glow Power Building Contracting">
 <meta property="og:description" content="Fit-out contractor based in International City, Dubai.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script>(function(d){d.classList.add('js');try{if(!sessionStorage.getItem('gp-seen')){d.classList.add('first');sessionStorage.setItem('gp-seen','1')}var p=localStorage.getItem('gp-palette');if(p==='amber'||p==='rose'||p==='lilac')d.setAttribute('data-palette',p)}catch(e){}})(document.documentElement)</script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="page-about">
 <a class="skip" href="#main">Skip to content</a>
+<div class="loader" aria-hidden="true"><div class="loader-in"><svg viewBox="0 0 80 120"><circle class="halo" cx="40" cy="46" r="20"/><path class="bulb" d="M29 84 C29 71 12 63 12 42 A28 28 0 0 1 68 42 C68 63 51 71 51 84 Z M30 93 H50 M33 101 H47"/><path class="fil" d="M34 84 V60 L37 51 L40 60 L43 51 L46 60 V84"/></svg><p class="loader-word">Glow Power</p></div></div>
 <header class="hdr" data-header><div class="wrap">
-  <a class="brand" href="index.html" aria-label="Glow Power Building Contracting home"><i aria-hidden="true"></i>Glow Power</a>
-  <button class="menu-btn" data-menu-toggle aria-expanded="false" aria-controls="nav">Menu</button>
+  <a class="brand" href="index.html" aria-label="Glow Power Building Contracting home"><i aria-hidden="true"></i><span>Glow Power</span></a>
+  <button class="menu-btn" data-menu-toggle aria-expanded="false" aria-controls="nav"><span class="menu-lines" aria-hidden="true"></span>Menu</button>
   <nav class="nav" id="nav" data-menu aria-label="Main"><a href="index.html">Home</a><a href="about.html" aria-current="page">About</a><a href="services.html">Services</a><a href="projects.html">Work</a><a href="contact.html">Contact</a><a class="cta" href="tel:+97145751809">Call 04 575 1809</a></nav>
 </div></header>
 <main id="main">
-<section class="phead"><div class="stage"><canvas data-scene="mini" role="img" aria-label="A 3D office interior with warm lighting"></canvas></div>
-<div class="copy"><div class="wrap"><h1>A fit-out team that thinks in light.</h1><p class="lede">Based in International City, working across Dubai.</p></div></div></section>
-<section class="sec"><div class="wrap cols">
-  <h2>Who we are</h2>
+<section class="split-head"><div class="wrap">
   <div>
+    <p class="kicker">About Glow Power</p>
+    <h1>A fit-out team that thinks in <span class="hl">light.</span></h1>
+    <p class="lede">Based in International City, working across Dubai.</p>
+  </div>
+  <div class="frame"><div class="stage"><canvas data-scene="mini" data-view="lounge" role="img" aria-label="A 3D office lounge with a sofa, a light ring overhead and warm lighting"></canvas></div><span class="frame-tag">Lounge · lights on</span></div>
+</div></section>
+
+<section class="sec"><div class="wrap cols">
+  <div><p class="kicker">Who we are</p><p class="pull" data-reveal>Our name comes from what we care about most: how a space feels when the lights come on.</p></div>
+  <div data-reveal>
     <p class="lede">Glow Power Building Contracting is a Dubai fit-out contractor. We turn empty units into offices, shops and restaurants that are ready to open.</p>
-    <p>Our name comes from what we care about most: how a space feels when the lights come on. Our site team includes carpenters, gypsum fixers, electricians and painters who work to one programme under one project manager.</p>
-    <p>We work directly with business owners, and alongside interior designers who need a contractor to deliver their drawings accurately.</p>
+    <p class="muted">We work directly with business owners, and alongside interior designers who need a contractor to deliver their drawings accurately.</p>
   </div>
 </div></section>
+
+<section class="sec tight"><div class="wrap">
+  <div class="sec-head"><div><p class="kicker">The site team</p><h2>One programme, one project manager.</h2></div><p>Our site team includes carpenters, gypsum fixers, electricians and painters who work to one programme under one project manager.</p></div>
+  <div class="trades" data-reveal>
+    <div class="trade"><svg viewBox="0 0 40 40"><path d="M6 30 L26 10 L32 16 L12 36 Z"/><path d="M22 14 L28 20"/><path d="M26 10 L30 6 L36 12 L32 16"/></svg><b>Carpenters</b><span>Joinery, counters and feature walls</span></div>
+    <div class="trade"><svg viewBox="0 0 40 40"><path d="M4 12 H36 V18 H4 Z"/><path d="M8 18 V30 M32 18 V30"/><path d="M12 24 H28" stroke-dasharray="2 3"/><path d="M4 30 H36"/></svg><b>Gypsum fixers</b><span>Partitions, bulkheads and ceilings</span></div>
+    <div class="trade"><svg viewBox="0 0 40 40"><path d="M20 4 C12 4 8 10 8 16 C8 22 14 24 14 30 H26 C26 24 32 22 32 16 C32 10 28 4 20 4 Z"/><path d="M15 35 H25"/><path d="M18 22 L21 16 H17 L20 10"/></svg><b>Electricians</b><span>Circuits, switching and lighting</span></div>
+    <div class="trade"><svg viewBox="0 0 40 40"><rect x="6" y="6" width="24" height="10" rx="2"/><path d="M30 11 H34 V20 H20 V25"/><rect x="17" y="25" width="6" height="11" rx="2"/></svg><b>Painters</b><span>Finishes before handover</span></div>
+  </div>
+</div></section>
+
 <section class="sec plum"><div class="wrap">
-  <h2>What clients get from us</h2>
-  <div class="svc">
-    <div><b>One programme</b><p>Every trade on one schedule, shared with you each week.</p></div>
-    <div><b>Fixed price</b><p>A priced scope before work starts, with variations agreed in writing.</p></div>
-    <div><b>Light tested</b><p>We set up and test lighting scenes with you before handover.</p></div>
+  <div class="sec-head"><div><p class="kicker">What clients get from us</p><h2>Three switches we never leave off.</h2></div></div>
+  <div class="switches" data-reveal>
+    <div class="switch-card" tabindex="0"><div class="rocker" aria-hidden="true"><i></i></div><b>One programme</b><p>Every trade on one schedule, shared with you each week.</p></div>
+    <div class="switch-card" tabindex="0"><div class="rocker" aria-hidden="true"><i></i></div><b>Fixed price</b><p>A priced scope before work starts, with variations agreed in writing.</p></div>
+    <div class="switch-card" tabindex="0"><div class="rocker" aria-hidden="true"><i></i></div><b>Light tested</b><p>We set up and test lighting scenes with you before handover.</p></div>
+  </div>
+  <div class="duo" data-reveal>
+    <div><b>For business owners</b><p>We work directly with you, from the first site visit to the keys.</p></div>
+    <div><b>For interior designers</b><p>We deliver your drawings accurately, as the contractor on site.</p></div>
   </div>
 </div></section>
-<section class="sec" style="padding-top:0"><div class="wrap"><div class="band">
-  <div><h2>Moving into a new space?</h2><p class="lede" style="margin-top:16px">Send us the floor plan and your move-in date. We visit, measure and return a fit-out programme with a fixed price.</p></div>
-  <div class="btns" style="margin:0"><a class="btn glow" href="contact.html">Book a site survey</a><a class="btn" href="tel:+97145751809">04 575 1809</a></div>
+<section class="sec tight"><div class="wrap"><div class="band" data-reveal>
+  <div><p class="kicker">Next step</p><h2>Moving into a new space?</h2><p class="lede" style="margin-top:18px">Send us the floor plan and your move-in date. We visit, measure and return a fit-out programme with a fixed price.</p></div>
+  <div class="btns" style="margin:0"><a class="btn glow edge" href="contact.html">Book a site survey <span class="arr" aria-hidden="true">→</span></a><a class="btn edge" href="tel:+97145751809">04 575 1809</a></div>
 </div></div></section>
 </main>
 <footer class="ftr"><div class="wrap">
-  <div><p class="say">Your space, switched on.</p><p style="color:#D9CCEE">Office 12, R-02, France Cluster, International City, Dubai</p></div>
-  <nav aria-label="Footer"><a href="services.html">Office fit-out</a><a href="services.html#retail">Retail and restaurants</a><a href="services.html#lighting">Lighting and ceilings</a><a href="projects.html">Our work</a></nav>
-  <nav aria-label="Contact"><a href="tel:+97145751809">04 575 1809</a><a href="contact.html">Book a site survey</a><a href="about.html">About us</a></nav>
+  <div><p class="say">Your space, <em>switched on.</em></p><p class="addr">Office 12, R-02, France Cluster, International City, Dubai</p></div>
+  <nav aria-label="Footer"><span class="h">Services</span><a href="services.html">Office fit-out</a><a href="services.html#retail">Retail and restaurants</a><a href="services.html#lighting">Lighting and ceilings</a><a href="projects.html">Our work</a></nav>
+  <nav aria-label="Contact"><span class="h">Contact</span><a href="tel:+97145751809">04 575 1809</a><a href="contact.html">Book a site survey</a><a href="about.html">About us</a></nav>
   <div class="fine"><span>© <span data-year></span> Glow Power Building Contracting LLC</span><span>Concept website — sample content for review</span></div>
 </div></footer>
+<script src="assets/js/ui.js"></script>
 <script src="assets/js/vendor/three.min.js"></script>
 <script src="assets/js/scene.js"></script>
 <script src="assets/js/main.js"></script>
